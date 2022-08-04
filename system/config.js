@@ -1,13 +1,13 @@
 // Owner number
 global.owner = '212632244668'
 // Owner name
-global.owner_name = 'M O H A M E D    B E L L A'
+global.owner_name = '𝘽𝙤𝙢𝙞𝙧𝙤 😁'
 // Maximum upload file size limit (Default : 250 MB)
 global.max_upload = 250
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
-// User Limitation (Default : 10000)
-global.limit = 10000
+// User Limitation (Default : 1000)
+global.limit = 30
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
@@ -15,14 +15,14 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92']
 // Put target jid to forward friends story
-global.forwards = '212692516633@c.us'
+global.forwards = '21212345678@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
 global.Api = new (require('./neoxrApi'))('dKwtXX')
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
 global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Footer text
-global.footer = 'B O T   BY  M O H A M E D   B E L L A'
+global.footer = 'BOT BY 𝘽𝙤𝙢𝙞𝙧𝙤 😁'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'المرجو الانتطار . . .'),
