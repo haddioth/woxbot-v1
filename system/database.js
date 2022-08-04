@@ -42,7 +42,7 @@ module.exports = (m) => {
          if (!('welcome' in group)) group.welcome = true
       } else {
          global.db.groups[m.chat] = {
-            autoread: true,
+            autoread: false,
             antidelete: true,
             antilink: false,
             antivirtex: false,
@@ -52,7 +52,7 @@ module.exports = (m) => {
             mute: false,
             member: {},
             text_left: '',
-            text_welcome: '',
+            text_welcome: 'مرحبا انا NAMX212BOT، هذا البوت يمكنك استخدامه في المجموعة',
             welcome: true
          }
       }
@@ -78,8 +78,8 @@ module.exports = (m) => {
       if (!('chatbot' in setting)) setting.chatbot = true
       if (!('error' in setting)) setting.error = []
       if (!('pluginDisable' in setting)) setting.pluginDisable = []
-      if (!('sk_pack' in setting)) setting.sk_pack = 'mohamed bella'
-      if (!('sk_author' in setting)) setting.sk_author = 'instagram : @wox_bella'
+      if (!('sk_pack' in setting)) setting.sk_pack = 'Bomiro 😁'
+      if (!('sk_author' in setting)) setting.sk_author = 'instagram : @gyd0_'
       if (!('self' in setting)) setting.self = false
       if (!('mimic' in setting)) setting.mimic = []
       if (!('multiprefix' in setting)) setting.multiprefix = true
@@ -96,17 +96,17 @@ module.exports = (m) => {
          debug: false,
          error: [],
          pluginDisable: [],
-         sk_pack: 'mohamed bella',
-         sk_author: 'instagram : @wox_bella',
+         sk_pack: '𝘽𝙤𝙢𝙞𝙧𝙤 😁',
+         sk_author: 'instagram : @gyd0_',
          self: false,
          mimic: [],
          multiprefix: true,
-         prefix: ['.', '#', '!', '/'],
+         prefix: ['.', '#', '/'],
          toxic: ["ajg", "ajig", "anjas", "porn", "xnxx", "porhub", "sex", "anying", "asw", "autis", "babi", "bacod", "bacot", "bagong", "bajingan", "bangsad", "bangsat", "bastard", "bego", "bgsd", "biadab", "biadap", "bitch", "bngst", "bodoh", "bokep", "cocote", "coli", "colmek", "comli", "dajjal", "dancok", "dongo", "fuck", "gelay", "goblog", "goblok", "guoblog", "guoblok", "hairul", "henceut", "idiot", "itil", "jamet", "jancok", "jembut", "jingan", "kafir", "kanjut", "kanyut", "keparat", "kntl", "kontol", "lana", "loli", "lont", "lonte", "mancing", "meki", "memek", "ngentod", "ngentot", "ngewe", "ngocok", "ngtd", "njeng", "njing", "njinx", "oppai", "pantek", "pantek", "peler", "pepek", "pilat", "pler", "pornhub", "pucek", "puki", "pukimak", "redhub", "sange", "setan", "silit", "telaso", "tempek", "tete", "titit", "toket", "tolol", "tomlol", "tytyd", "wildan", "xnxx"],
-         online: true,
+         online: false,
          onlyprefix: '+',
-         owners: ['212690516633', '212632244668'],
-         msg: 'https://www.instagram.com/wox_bella/'     
+         owners: ['212705570169', '212612345678'],
+         msg: 'https://www.instagram.com/gyd0_'     
       }
    }
 }
