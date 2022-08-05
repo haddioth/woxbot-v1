@@ -1,7 +1,7 @@
 // Owner number
 global.owner = '212705570169'
 // Owner name
-global.owner_name = '𝐍𝐀𝐌𝐗𝟐𝟏𝟐'
+global.owner_name = '𝘽𝙤𝙢𝙞𝙧𝙤 😁'
 // Maximum upload file size limit (Default : 250 MB)
 global.max_upload = 300
 // Delay for spamming protection (Default : 3 seconds)
@@ -15,14 +15,14 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92']
 // Put target jid to forward friends story
-global.forwards = '212705570169@c.us'
+global.forwards = '212612345678@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
 global.Api = new (require('./neoxrApi'))('dKwtXX')
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
 global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Footer text
-global.footer = '𝐏𝐎𝐖𝐄𝐑 𝐍𝐀𝐌𝐗𝟐𝟐'
+global.footer = 'BOT  BY 𝘽𝙤𝙢𝙞𝙧𝙤 😁'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'المرجو الانتطار . . .'),
@@ -35,9 +35,7 @@ global.status = Object.freeze({
    premium: Func.texted('bold', 'This feature only for premium user.'),
    owner: Func.texted('bold', 'This command only for owner.'),
    god: Func.texted('bold', 'This command only for Master'),
-   group: Func.texted('bold', 'غير مسموح لهذا الحساب باستخدام البوت، تواصل مع صاحب البوت من اجل الانضمام للمجموعة.
-www.instagram.com/gyd0_
-'),
+   group: Func.texted('bold', 'غير مسموح لهذا الحساب باستخدام البوت ٠ تواصل مع صاحب البوت من اجل الانضمام للمجموعة wa.me/212705570169'),
    botAdmin: Func.texted('bold', 'This command will work when I become an admin.'),
    admin: Func.texted('bold', 'This command only for group admin.'),
    private: Func.texted('bold', 'Use this command in private chat.')
